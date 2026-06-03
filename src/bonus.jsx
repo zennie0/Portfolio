@@ -63,16 +63,24 @@ function Bonus() {
 
             <h2>PROJECT LINKS</h2>
             <br />
+
             <div className="img">
-                <a  onClick={()=>clickSound.play()}  href="https://borrow-basket.onrender.com/listings" >
+                <a target="_blank" onClick={()=>clickSound.play()}  href="https://github.com/zennie0/Kosowa" >
+                    <img src="./kosowaimg.jpg" alt="" /><br />Kosowa
+                </a>
+                <a target="_blank" onClick={()=>clickSound.play()}  href="https://github.com/zennie0/version-control" >
+                    <img src="./git_img.jpg" alt="" /><br />GitHub Clone
+                </a>
+                <a target="_blank" onClick={()=>clickSound.play()}  href="https://borrow-basket.onrender.com/listings" >
                     <img src="./basimg.jpeg" alt="" /><br />Borrowbasket
                 </a>
-                <a  onClick={()=>clickSound.play()}  href="https://weather-app-oihn.onrender.com/">
+                <a target="_blank"  onClick={()=>clickSound.play()}  href="https://weather-app-oihn.onrender.com/">
                     <img src="./wetimg.jpeg" alt="" /><br />Weather app
                 </a>
-                <a  onClick={()=>clickSound.play()}  href="https://portfolio-mk5j.onrender.com/">
+                <a target="_blank"  onClick={()=>clickSound.play()}  href="https://portfolio-mk5j.onrender.com/">
                     <img src="./portimg.jpeg" alt="" /><br />Portfolio
                 </a>
+               
             </div>
         </div>
         </div>

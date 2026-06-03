@@ -25,12 +25,14 @@
   color:white;
     
   width:80vw;
-  border:5px solid rgb(0, 0, 0);
+  border:2px solid rgb(0, 0, 0);
   height:80vh;
+  
   background-image: url("./zainablight.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+   box-shadow: 10px 10px 10px #000000;
 
 
 }
@@ -44,7 +46,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border:5px solid black;
+  border:2px solid black;
    /* display: flex;
    justify-content: center;
    align-items: center; */
@@ -52,6 +54,7 @@
  flex-wrap: wrap;
 
  color:brown;
+  box-shadow: 10px 10px 10px #000000;
 }
 .btn{
    width:100px;
@@ -90,11 +93,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border:5px solid black;
+  border:2px solid black;
   color:black;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+   box-shadow: 10px 10px 10px #000000;
 }
 .nav{
   background-color: rgb(57, 23, 23);
@@ -146,11 +150,12 @@ margin-right:50px
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border:5px solid black;
+  border:2px solid black;
   color:rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+   box-shadow: 10px 10px 10px #000000;
   
 }
 .project::-webkit-scrollbar{
@@ -179,10 +184,12 @@ margin-right:50px
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border:5px solid black;
+  border:2px solid black;
   color:rgb(255, 255, 255);
  display: flex;
   flex-direction: column;
+  overflow-y: scroll;
+  box-shadow: 10px 10px 10px #000000;
 
 }
 .development{
@@ -213,11 +220,12 @@ margin-right:50px
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border:5px solid black;
+  border:2px solid black;
   color:rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+   box-shadow: 10px 10px 10px #000000;
   }
   .expr .img{
    display: flex;
@@ -249,11 +257,12 @@ margin-right:50px
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border:5px solid black;
+  border:2px solid black;
   color:rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+   box-shadow: 10px 10px 10px #000000;
   }
 
   .bonus .contact .img{
